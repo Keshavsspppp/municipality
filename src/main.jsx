@@ -4,7 +4,6 @@ import { BrowserRouter } from 'react-router-dom'
 import './index.css'
 import App from './App'
 
-// Configure future flags for React Router
 const router = {
   future: {
     v7_startTransition: true,
