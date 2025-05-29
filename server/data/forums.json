@@ -1,0 +1,178 @@
+{
+  "forums": [
+    {
+      "name": "Public Discussion",
+      "description": "Open forum for all citizens to discuss municipal matters",
+      "type": "Public",
+      "topics": [
+        {
+          "title": "Welcome to Public Forum",
+          "content": "This is a space for all citizens to discuss municipal matters openly.",
+          "createdAt": "2024-03-15T10:00:00.000Z",
+          "posts": [
+            {
+              "content": "Great initiative! Looking forward to active discussions.",
+              "createdAt": "2024-03-15T10:05:00.000Z",
+              "author": "Citizen1"
+            },
+            {
+              "content": "How can we report street light issues?",
+              "createdAt": "2024-03-15T10:30:00.000Z",
+              "author": "Citizen2"
+            }
+          ]
+        },
+        {
+          "title": "Road Maintenance in Sector 5",
+          "content": "Discussion about potholes and road repairs in Sector 5",
+          "createdAt": "2024-03-14T09:00:00.000Z",
+          "posts": [
+            {
+              "content": "Several potholes on Main Street need immediate attention",
+              "createdAt": "2024-03-14T09:15:00.000Z",
+              "author": "Citizen3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Water Department Internal",
+      "description": "Internal discussions for water department staff",
+      "type": "Intra",
+      "department": "Water Department",
+      "topics": [
+        {
+          "title": "Water Supply Schedule",
+          "content": "Discussion about water supply schedules and maintenance",
+          "createdAt": "2024-03-15T08:00:00.000Z",
+          "posts": [
+            {
+              "content": "Please review the new schedule for Sector 27",
+              "createdAt": "2024-03-15T08:30:00.000Z",
+              "author": "Staff1"
+            },
+            {
+              "content": "Maintenance work scheduled for tomorrow morning",
+              "createdAt": "2024-03-15T09:00:00.000Z",
+              "author": "Staff2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Road & Water Department Collaboration",
+      "description": "Joint forum for road and water department coordination",
+      "type": "Inter",
+      "departments": ["Road Department", "Water Department"],
+      "topics": [
+        {
+          "title": "Road Digging Coordination",
+          "content": "Coordination for upcoming road digging projects",
+          "createdAt": "2024-03-14T11:00:00.000Z",
+          "posts": [
+            {
+              "content": "Please coordinate with water department before starting work",
+              "createdAt": "2024-03-14T11:30:00.000Z",
+              "author": "RoadStaff1"
+            },
+            {
+              "content": "Pipeline maintenance scheduled for next week",
+              "createdAt": "2024-03-14T12:00:00.000Z",
+              "author": "WaterStaff1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sanitation Department Internal",
+      "description": "Internal discussions for sanitation department staff",
+      "type": "Intra",
+      "department": "Sanitation Department",
+      "topics": [
+        {
+          "title": "Waste Collection Routes",
+          "content": "Discussion about waste collection routes and schedules",
+          "createdAt": "2024-03-15T07:00:00.000Z",
+          "posts": [
+            {
+              "content": "New routes have been assigned for Zone 5",
+              "createdAt": "2024-03-15T07:30:00.000Z",
+              "author": "SanStaff1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Public Grievances",
+      "description": "Forum for citizens to raise and discuss grievances",
+      "type": "Public",
+      "topics": [
+        {
+          "title": "Street Light Issues",
+          "content": "Discussion about street light maintenance and repairs",
+          "createdAt": "2024-03-13T15:00:00.000Z",
+          "posts": [
+            {
+              "content": "Several street lights are not working in Sector 15",
+              "createdAt": "2024-03-13T15:30:00.000Z",
+              "author": "Citizen4"
+            },
+            {
+              "content": "Work order has been issued for repairs",
+              "createdAt": "2024-03-13T16:00:00.000Z",
+              "author": "Staff3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Urban Development Updates",
+      "description": "Updates and discussions about urban development projects",
+      "type": "Public",
+      "topics": [
+        {
+          "title": "New Park Development",
+          "content": "Information about the new park development in Sector 8",
+          "createdAt": "2024-03-12T10:00:00.000Z",
+          "posts": [
+            {
+              "content": "Construction will begin next month",
+              "createdAt": "2024-03-12T10:30:00.000Z",
+              "author": "Staff4"
+            },
+            {
+              "content": "Will there be a children's play area?",
+              "createdAt": "2024-03-12T11:00:00.000Z",
+              "author": "Citizen5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Public Works & Sanitation Coordination",
+      "description": "Coordination between public works and sanitation departments",
+      "type": "Inter",
+      "departments": ["Public Works Department", "Sanitation Department"],
+      "topics": [
+        {
+          "title": "Infrastructure Maintenance",
+          "content": "Coordination for infrastructure maintenance projects",
+          "createdAt": "2024-03-11T09:00:00.000Z",
+          "posts": [
+            {
+              "content": "Drain cleaning scheduled for next week",
+              "createdAt": "2024-03-11T09:30:00.000Z",
+              "author": "SanStaff2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+} 

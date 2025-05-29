@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Pothole Detection</title>
+</head>
+<body>
+    <h1>Pothole Detection</h1>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload and Detect">
+    </form>
+
+    {% if error %}
+        <p style="color: red;">Error: {{ error }}</p>
+    {% endif %}
+
+    {% if prediction %}
+        <h2>Prediction Result:</h2>
+        <p>Status: {{ prediction.status }}</p>
+        <p>Confidence: {{ prediction.confidence }}</p>
+        {% if image_path %}
+            <h3>Uploaded Image:</h3>
+            <img src="{{ url_for('static', filename=image_path) }}" alt="Uploaded Image" width="300">
+        {% endif %}
+    {% endif %}
+
+</body>
+</html>
